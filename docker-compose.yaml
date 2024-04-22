@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  jupyter:
+    image: jupyter/scipy-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - /Users/lethuhang/gitRepo:/home/zhenya
+    container_name: jupyter_scipy_notebook
