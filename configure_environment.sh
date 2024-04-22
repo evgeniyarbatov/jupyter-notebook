@@ -1,0 +1,1 @@
+pip install -r ~/work/requirements.txt

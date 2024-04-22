@@ -6,5 +6,6 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - /Users/lethuhang/gitRepo:/home/zhenya
-    container_name: jupyter_scipy_notebook
+      - .:/home/jovyan/work
+      - /Users/lethuhang/gitRepo:/home/jovyan/gitRepo
+      - ./configure_environment.sh:/usr/local/bin/before-notebook.d/configure_environment.sh
