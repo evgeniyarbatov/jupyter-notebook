@@ -7,5 +7,5 @@ services:
       - "8888:8888"
     volumes:
       - .:/home/jovyan/work
-      - /Users/lethuhang/gitRepo:/home/jovyan/gitRepo
+      - ..:/home/jovyan/gitRepo
       - ./configure_environment.sh:/usr/local/bin/before-notebook.d/configure_environment.sh
