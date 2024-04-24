@@ -1,9 +1,25 @@
 # jupyter-notebook
 
-Run Jupyter notebook in the container since local Jupyter notebook is broken
+Run Jupyter Notebook in Docker.
 
-## Running
+## Run
 
 ```
 docker compose up
 ```
+
+## Extra
+
+Pull git repos:
+
+```
+./github_pull.sh
+```
+
+Generate requirements.txt:
+
+```
+./requirements.sh
+```
+
+
