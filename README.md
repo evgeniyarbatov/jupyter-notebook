@@ -1,6 +1,6 @@
 # jupyter-notebook
 
-Run Jupyter Notebook in Docker and install dependencies with pip.
+Run Jupyter Notebook in Docker.
 
 ## Run
 
