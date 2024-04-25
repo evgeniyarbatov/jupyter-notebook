@@ -22,4 +22,10 @@ Generate requirements.txt:
 ./requirements.sh
 ```
 
+Find all notebooks:
+
+```
+./find_notebooks.sh
+```
+
 
