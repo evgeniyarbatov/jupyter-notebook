@@ -4,7 +4,11 @@ services:
     ports:
       - "8888:8888"
     volumes:
+      # Mount local directory to run configure_environment.sh
       - .:/home/jovyan/work
+      # Github repos are in the parent directory
       - ..:/home/jovyan/gitRepo
-      - ./notebooks:/home/jovyan/notebooks
+      # Directory with symlinks to all Jupyter notebooks
+      - ./notebooks:/home/jovyan/notebooks 
+      # Install dependencies with PIP
       - ./configure_environment.sh:/usr/local/bin/before-notebook.d/configure_environment.sh
