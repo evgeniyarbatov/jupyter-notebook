@@ -6,4 +6,5 @@ services:
     volumes:
       - .:/home/jovyan/work
       - ..:/home/jovyan/gitRepo
+      - ./notebooks:/home/jovyan/notebooks
       - ./configure_environment.sh:/usr/local/bin/before-notebook.d/configure_environment.sh

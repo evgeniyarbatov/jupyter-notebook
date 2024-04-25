@@ -5,7 +5,7 @@ Run Jupyter Notebook in Docker and install dependencies with pip.
 ## Run
 
 ```
-docker compose up
+./start.sh
 ```
 
 ## Extra
