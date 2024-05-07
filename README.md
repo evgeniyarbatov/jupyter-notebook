@@ -28,4 +28,10 @@ Find all notebooks:
 ./find_notebooks.sh
 ```
 
+Save the work:
+
+```
+./github_save.sh
+```
+
 
